@@ -1,0 +1,19 @@
+*.html
+node_modules/
+
+# Skompilowane pliki builda (Gradle)
+build/
+.gradle/
+
+# Ustawienia środowiska IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Skompilowane pliki Javy (jako dodatkowe zabezpieczenie)
+*.class
+*.log
+
+# Pliki systemowe Mac/Windows (bardzo dobra praktyka)
+.DS_Store
+Thumbs.db
